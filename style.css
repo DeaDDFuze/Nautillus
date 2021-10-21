@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "title";
+    src: url(media/fonts/Le\ Voyage\ Dans\ La\ Lune.otf)
+   }
+
+
+body{
+    background-color: #34495e;
+    margin: 0;
+
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+table{
+    width: 100%;
+}
+h1{
+    font-family: "title";
+    letter-spacing: 10px;
+}
+menu{
+    background-color: black;
+}
+
+
+
+header{
+    margin-top: 0;
+    background-color: #16142b;
+    box-shadow: inset -13px -14px 25px 0px rgba(0,0,0,0.83);
+}
+
+.lien_menu{
+    color: white;
+    text-decoration: none;
+
+    
+}
+.lien_menu:hover{
+    font-size: large;
+}
+.en_cours{
+    font-weight:900;
+    font-size: large;
+}
+.en_cours:hover{
+    font-size: large;
+}
