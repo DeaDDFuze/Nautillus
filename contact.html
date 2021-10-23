@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/contact.css" media="all" />
+    <link rel="shortcut icon" href="media/icon/logo nautillus.ico" type="image/x-icon">
+    <title>Contactez-nous</title>
+</head>
+
+<body>
+    <menu style="margin-top: 0; height: 30px;margin-bottom: 0;padding-left: 0;">
+        <table><tr style="text-align: center; width: 100%;">
+            <td style="width: 33%;"><a href="index.html" class="lien_menu">Accueil</a></td>
+            <td style="width: 33%;"><a href="concours.html" class="lien_menu">Concours de Scénario</a></td>
+            <td style="width: 33%;"><a href="#" class="lien_menu en_cours">Contact</a></td>
+        </tr></table>
+        
+        
+    </menu>
+    <!-- Voici notre en‑tête principale utilisée dans toutes les pages
+         de notre site web -->
+    <header class=content>
+        <h2 class="titre">Contact</h2>
+        <form target="_blank" action="https://formsubmit.co/brasseta@gmail.com" method="post">
+            <table>
+                <tr>
+                    <tb>
+                        <input class="border taille" type="text" name="name" class="form-control" placeholder="Nom" required>
+                    </tb>
+                    <tb>
+                        <input class="border taille" type="email" name="email" class="form-control" placeholder="Email" required>
+                    </tb>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <tb>
+                        <textarea class="boite border param" placeholder="Votre message" class="form-control" name="message" rows="10" required></textarea>
+                    </tb>
+                </tr>
+            </table>
+            <button class="boutton border" type="submit" class="btn btn-lg btn-dark btn-block">Envoyer</button>
+            <!--<input type="hidden" name="_next" value="http://127.0.0.1:5500/pdf.html">-->
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+    </header>
+</body>
+
+</html>
